@@ -1,0 +1,68 @@
+body
+{
+    height: 100vh;
+    background-image: url(photo.jpeg);
+    /* background-repeat: no-repeat; */
+    /* background-size: 1000px 1000px; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.title
+{
+    background-color: black;
+    border: 1px solid white;
+    color:white;
+    width: 400px;
+    text-align: center;
+    padding:10px;
+    margin-left: 100px;
+    height:60px;
+    font-size: 32px;
+    border-radius: 15px;
+}
+
+.Quotes
+{
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    margin:20px;
+}
+
+
+
+.Quote-one
+{
+    padding:60px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.Quote-two, .Quote-three,.Quote-four,.Quote-five,.Quote-six
+{
+    display:none;
+}
+
+.new-quote
+{
+   text-align: center;
+    width: 100px;
+    height:30px;
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 3px 10px;
+    margin-left: 250px;
+}
+
+.new-quote:active
+{
+    background-color: lightblue;
+}
